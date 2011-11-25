@@ -87,3 +87,4 @@ li:after {content: " [" attr(class) "]"; color: #F88;}
  */
 
 pre .tag { color: #f00; }
+.example-html { background: #ccc; }
