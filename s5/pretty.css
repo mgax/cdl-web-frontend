@@ -88,3 +88,5 @@ li:after {content: " [" attr(class) "]"; color: #F88;}
 
 pre .tag { color: #f00; }
 .example-html { background: #ccc; }
+.example-html table { border-collapse: collapse; }
+.example-html table td { border: 1px solid black; padding: 0 1em; }
