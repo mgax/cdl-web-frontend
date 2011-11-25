@@ -90,3 +90,7 @@ pre .tag { color: #f00; }
 .example-html { background: #ccc; }
 .example-html table { border-collapse: collapse; }
 .example-html table td { border: 1px solid black; padding: 0 1em; }
+
+.with-example-style h3 { text-decoration: underline; }
+.with-example-style ul li { list-style: lower-roman; }
+.with-example-style li.first { color: red; }

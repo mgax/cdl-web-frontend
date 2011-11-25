@@ -164,15 +164,59 @@ Scrie pe <span class="tag">&lt;a href="http://www.wikipedia.org/"
     <h1>Design vizual: CSS</h1>
     <ul>
       <li>Separare între layout/design și conținut</li>
-      <!-- TODO exemplu de markup, css, output
-      exemplu de stilizare de linkuri, paragrafe stilizat altfel
-          link-urile dintr-un blockquote
-          pe 2 slide-uri: primul cu markup și output normal, al doilea
-          cu css și output stilizat
-          -->
-      <li>clase și id-uri</li> <!-- TODO slide separat cu o clasă, un
-      id, niște css (chiar mai complex), fără output -->
+      <li>Sintaxă declarativă</li>
+      <li>Selectori, reguli</li>
     </ul>
+&nbsp;
+<pre>
+  div.menu a {
+      color: red;
+      text-decoration: italic;
+  }
+</pre>
+  </article>
+
+  <article class="slide">
+    <h1>Design vizual: document simplu</h1>
+
+<pre>
+<span class="tag">&lt;h3&gt;</span>Clasament<span class="tag">&lt;/h3&gt;</span>
+<span class="tag">&lt;ul&gt;</span>
+  <span class="tag">&lt;li class="first"&gt;</span>Novak Djokovic<span class="tag">&lt;/li&gt;</span>
+  <span class="tag">&lt;li&gt;</span>Rafael Nadal<span class="tag">&lt;/li&gt;</span>
+  <span class="tag">&lt;li&gt;</span>Andy Murray<span class="tag">&lt;/li&gt;</span>
+<span class="tag">&lt;/ul&gt;</span>
+</pre>
+
+<div class="example-html">
+<h3>Clasament</h3>
+<ul>
+  <li class="first">Novak Djokovic</li>
+  <li>Rafael Nadal</li>
+  <li>Andy Murray</li>
+</ul>
+</div>
+
+  </article>
+
+  <article class="slide">
+    <h1>Design vizual: document cu stil</h1>
+
+<pre>
+h3 { text-decoration: underline; }
+ul li { list-style: lower-roman; }
+li.first { color: red; }
+</pre>
+
+<div class="example-html with-example-style">
+<h3>Clasament</h3>
+<ul>
+  <li class="first">Novak Djokovic</li>
+  <li>Rafael Nadal</li>
+  <li>Andy Murray</li>
+</ul>
+</div>
+
   </article>
 
   <article class="slide">
